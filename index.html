@@ -1,0 +1,372 @@
+<!-- 
+Responsive HTML Table With Pure CSS - Web Design/UI Design
+
+Code written by:
+👨🏻‍⚕️ Coding Design (Jeet Saru)
+
+> You can do whatever you want with the code. However if you love my content, you can **SUBSCRIBED** my YouTube Channel.
+
+🌎link: www.youtube.com/codingdesign 
+ -->
+<!DOCTYPE html>
+<html lang="en" title="Coding design">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive HTML Table With Pure CSS - Web Design/UI Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="upper">
+            <section class="table__header">
+                <h1>Option Chain</h1>
+                <div class="input-group">
+                    <input type="search" placeholder="Search Data...">
+                    <img src="images/search.png" alt="">
+                </div>
+                <div class="export__file">
+                    <label for="export-file" class="export__file-btn" title="Export File"></label>
+                    <input type="checkbox" id="export-file">
+                    <div class="export__file-options">
+                        <label>Export As &nbsp; &#10140;</label>
+                        <label for="export-file" id="toPDF">PDF <img src="images/pdf.png" alt=""></label>
+                        <label for="export-file" id="toJSON">JSON <img src="images/json.png" alt=""></label>
+                        <label for="export-file" id="toCSV">CSV <img src="images/csv.png" alt=""></label>
+                        <label for="export-file" id="toEXCEL">EXCEL <img src="images/excel.png" alt=""></label>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="lower">
+            <div class="left-div">
+                <main class="table">
+                    <section class="table__body">
+                        <table id="optionsTable2">
+                            <tr>
+                                <th colspan="11" class = "th" style="text-align: center;">CALLS</th>
+                            </tr>
+                            <tr class="th">
+                                <th>OI</th>
+                                <th>CHNG IN OI</th>
+                                <th>VOLUME</th>
+                                <th>IV</th>
+                                <th>LTP</th>
+                                <th>CHNG</th>
+                                <th>BID QTY</th>
+                                <th>BID</th>
+                                <th>ASK</th>
+                                <th>ASK QTY</th>
+                                <th class="th">STRIKE PRICE</th>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>1,945.00</td>
+                                <td>-</td>
+                                <td>500</td>
+                                <td>2,102.35</td>
+                                <td>2,167.95</td>
+                                <td>500</td>
+                                <td>17,050.00</td>
+
+                            </tr>
+                            <tr>
+                                <td>124</td>
+                                <td>-</td>
+                                <td>3</td>
+                                <td>-</td>
+                                <td>2,127.05</td>
+                                <td>128.60</td>
+                                <td>250</td>
+                                <td>2,185.70</td>
+                                <td>2,227.25</td>
+                                <td>5,150</td>
+                                <td>17,000.00</td>
+
+                            </tr>
+                            <tr>
+                                <td>39</td>
+                                <td style="color: red">-6</td>
+                                <td style="color: green">6</td>
+                                <td style="color: gray">-</td>
+                                <td>2,056.00</td>
+                                <td>136.00</td>
+                                <td>1,500</td>
+                                <td>2,020.55</td>
+                                <td>2,121.80</td>
+                                <td style="color: blue">100</td>
+                                <td>17,100.00</td>
+
+                    
+                        </table>
+                    
+                    </section>
+                </main>
+            </div>
+            <div class="right-div">
+                <main class="table">
+                
+                    <section class="table__body">
+                        <table id="optionsTable1">
+                            <tr>
+                                <th colspan="11" class = "th" style="text-align: center;">CALLS</th>
+                            </tr>
+                            <tr class="th">
+                                <th>OI</th>
+                                <th>CHNG IN OI</th>
+                                <th>VOLUME</th>
+                                <th>IV</th>
+                                <th>LTP</th>
+                                <th>CHNG</th>
+                                <th>BID QTY</th>
+                                <th>BID</th>
+                                <th>ASK</th>
+                                <th>ASK QTY</th>
+                                <th class="th">STRIKE PRICE</th>
+    
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>1,945.00</td>
+                                <td>-</td>
+                                <td>500</td>
+                                <td>2,102.35</td>
+                                <td>2,167.95</td>
+                                <td>500</td>
+                                <td>17,050.00</td>
+                            </tr>
+                            <tr>
+                                <td>124</td>
+                                <td>-</td>
+                                <td>3</td>
+                                <td>-</td>
+                                <td>2,127.05</td>
+                                <td>128.60</td>
+                                <td>250</td>
+                                <td>2,185.70</td>
+                                <td>2,227.25</td>
+                                <td>5,150</td>
+                                <td>17,000.00</td>
+                            </tr>
+                            <tr>
+                                <td>39</td>
+                                <td style="color: red">-6</td>
+                                <td style="color: green">6</td>
+                                <td style="color: gray">-</td>
+                                <td>2,056.00</td>
+                                <td>136.00</td>
+                                <td>1,500</td>
+                                <td>2,020.55</td>
+                                <td>2,121.80</td>
+                                <td style="color: blue">100</td>
+                                <td>17,100.00</td>
+    
+                    
+                        </table>
+                    
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Sort table based on strike price column's value in ascending order
+        const table = document.getElementById("optionsTable1");
+        const rows = Array.from(table.getElementsByTagName("tr"));
+        rows.shift(); // Remove the header row from the sorting
+
+        rows.sort((a, b) => {
+            const aValue = parseFloat(a.cells[10].textContent.replace(/,/g, ""));
+            const bValue = parseFloat(b.cells[10].textContent.replace(/,/g, ""));
+            return aValue - bValue;
+        });
+
+        rows.forEach(row => table.appendChild(row));
+
+        const table2 = document.getElementById("optionsTable2");
+        const rows2 = Array.from(table2.getElementsByTagName("tr"));
+        rows2.shift(); // Remove the header row from the sorting
+
+        rows2.sort((a1, b1) => {
+            const aValue1 = parseFloat(a1.cells[10].textContent.replace(/,/g, ""));
+            const bValue2 = parseFloat(b1.cells[10].textContent.replace(/,/g, ""));
+            return aValue1 - bValue2;
+        });
+
+        rows2.forEach(row => table2.appendChild(row));
+    </script>
+</body>
+<!-- <body>
+    <div class="container">
+        <div id="upper">
+            <section class="table__header">
+                <h1>Option Chain</h1>
+                <div class="input-group">
+                    <input type="search" placeholder="Search Data...">
+                    <img src="images/search.png" alt="">
+                </div>
+                <div class="export__file">
+                    <label for="export-file" class="export__file-btn" title="Export File"></label>
+                    <input type="checkbox" id="export-file">
+                    <div class="export__file-options">
+                        <label>Export As &nbsp; &#10140;</label>
+                        <label for="export-file" id="toPDF">PDF <img src="images/pdf.png" alt=""></label>
+                        <label for="export-file" id="toJSON">JSON <img src="images/json.png" alt=""></label>
+                        <label for="export-file" id="toCSV">CSV <img src="images/csv.png" alt=""></label>
+                        <label for="export-file" id="toEXCEL">EXCEL <img src="images/excel.png" alt=""></label>
+                    </div>
+                </div>
+            </section>
+        </div>    
+        <div id="lower">
+        <div class="left-div">
+            <main class="table">
+                
+                <section class="table__body">
+                    <table id="optionsTable1">
+                        <tr>
+                            <th colspan="11" class = "th" style="text-align: center;">CALLS</th>
+                        </tr>
+                        <tr class="th">
+                            <th>OI</th>
+                            <th>CHNG IN OI</th>
+                            <th>VOLUME</th>
+                            <th>IV</th>
+                            <th>LTP</th>
+                            <th>CHNG</th>
+                            <th>BID QTY</th>
+                            <th>BID</th>
+                            <th>ASK</th>
+                            <th>ASK QTY</th>
+                            <th class="th">STRIKE PRICE</th>
+
+                        </tr>
+                        <tr>
+                            <td>30</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>1,945.00</td>
+                            <td>-</td>
+                            <td>500</td>
+                            <td>2,102.35</td>
+                            <td>2,167.95</td>
+                            <td>500</td>
+                            <td>17,050.00</td>
+                        </tr>
+                        <tr>
+                            <td>124</td>
+                            <td>-</td>
+                            <td>3</td>
+                            <td>-</td>
+                            <td>2,127.05</td>
+                            <td>128.60</td>
+                            <td>250</td>
+                            <td>2,185.70</td>
+                            <td>2,227.25</td>
+                            <td>5,150</td>
+                            <td>17,000.00</td>
+                        </tr>
+                        <tr>
+                            <td>39</td>
+                            <td style="color: red">-6</td>
+                            <td style="color: green">6</td>
+                            <td style="color: gray">-</td>
+                            <td>2,056.00</td>
+                            <td>136.00</td>
+                            <td>1,500</td>
+                            <td>2,020.55</td>
+                            <td>2,121.80</td>
+                            <td style="color: blue">100</td>
+                            <td>17,100.00</td>
+
+                
+                    </table>
+                
+                </section>
+            </main>
+            </div>
+            </div>
+                <div class="right-div">
+                    <main class="table">
+                        <section class="table__body">
+                            <table id="optionsTable2">
+                                <tr>
+                                    <th colspan="11" class = "th" style="text-align: center;">CALLS</th>
+                                </tr>
+                                <tr class="th">
+                                    <th>OI</th>
+                                    <th>CHNG IN OI</th>
+                                    <th>VOLUME</th>
+                                    <th>IV</th>
+                                    <th>LTP</th>
+                                    <th>CHNG</th>
+                                    <th>BID QTY</th>
+                                    <th>BID</th>
+                                    <th>ASK</th>
+                                    <th>ASK QTY</th>
+                                    <th class="th">STRIKE PRICE</th>
+                                </tr>
+                                <tr>
+                                    <td>30</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>1,945.00</td>
+                                    <td>-</td>
+                                    <td>500</td>
+                                    <td>2,102.35</td>
+                                    <td>2,167.95</td>
+                                    <td>500</td>
+                                    <td>17,050.00</td>
+
+                                </tr>
+                                <tr>
+                                    <td>124</td>
+                                    <td>-</td>
+                                    <td>3</td>
+                                    <td>-</td>
+                                    <td>2,127.05</td>
+                                    <td>128.60</td>
+                                    <td>250</td>
+                                    <td>2,185.70</td>
+                                    <td>2,227.25</td>
+                                    <td>5,150</td>
+                                    <td>17,000.00</td>
+
+                                </tr>
+                                <tr>
+                                    <td>39</td>
+                                    <td style="color: red">-6</td>
+                                    <td style="color: green">6</td>
+                                    <td style="color: gray">-</td>
+                                    <td>2,056.00</td>
+                                    <td>136.00</td>
+                                    <td>1,500</td>
+                                    <td>2,020.55</td>
+                                    <td>2,121.80</td>
+                                    <td style="color: blue">100</td>
+                                    <td>17,100.00</td>
+
+                        
+                            </table>
+                        
+                        </section>
+                    </main>
+                    </div>
+                </div>
+         </div>
+
+
+</body> -->
+
+</html>
